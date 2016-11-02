@@ -8,6 +8,7 @@ RUN curl -O -s -k -L -C - https://sourceforge.net/projects/lportal/files/Liferay
 #ADD liferay-portal-tomcat-7.0-ce-ga1-20160331161017956.zip /
 
 RUN unzip liferay-portal-tomcat-7.0-ce-ga1-20160331161017956.zip
+RUN rm liferay-portal-tomcat-7.0-ce-ga1-20160331161017956.zip
 
 EXPOSE 8080
 
