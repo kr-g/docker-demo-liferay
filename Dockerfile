@@ -12,6 +12,7 @@ RUN unzip liferay-portal-tomcat-7.0-ce-ga1-20160331161017956.zip
 RUN rm liferay-portal-tomcat-7.0-ce-ga1-20160331161017956.zip
 
 EXPOSE 8080
+EXPOSE 5432
 
 RUN ln -s liferay-portal-7.0-ce-ga1/deploy /deploy
 VOLUME /deploy
