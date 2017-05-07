@@ -3,7 +3,7 @@
 sample from my blog https://another-software-development-blog.blogspot.de
 
 
-liferay ce 7 ga 1 with tomcat and postgresql 9.5
+liferay ce 7 ga 3 with tomcat and postgresql 9.5
 
 
 start image with
@@ -20,14 +20,14 @@ see status with
     docker ps -l
 
 
-see logs with 
+see logs with
 
     docker logs liferay -f
 
 
 after basic configuration is done you need to restart the image
 
-stop image with 
+stop image with
 
     docker stop liferay
 
