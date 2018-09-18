@@ -1,6 +1,10 @@
 # docker-demo-liferay
 
-sample from my blog https://another-software-development-blog.blogspot.de
+liferay ce portal bundle with tomcat 7.1.0-ga1 with hypersonic db
+
+
+
+sample from my blog https://another-software-development-blog.blogspot.com
 
 
 in case you want to use postgresql checkout the branch "postgres"
@@ -20,7 +24,7 @@ see status with
     docker ps -l
 
 
-see logs with 
+see logs with
 
     docker logs liferay -f
 
@@ -28,11 +32,11 @@ see logs with
 after basic configuration is done you need to restart the image
 
 
-stop image with 
+stop image with
 
     docker stop liferay
 
-start image with 
+start image with
 
     docker start liferay
 
