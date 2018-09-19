@@ -5,8 +5,8 @@ RUN apt-get install -y openjdk-8-jdk curl unzip sudo
 RUN apt-get install -y postgresql
 
 
-#RUN curl -O -s -k -L -C - https://vorboss.dl.sourceforge.net/project/lportal/Liferay%20Portal/7.1.0%20GA1/liferay-ce-portal-tomcat-7.1.0-ga1-20180703012531655.zip
-ADD liferay-ce-portal-tomcat-7.1.0-ga1-20180703012531655.zip /
+RUN curl -O -s -k -L -C - https://vorboss.dl.sourceforge.net/project/lportal/Liferay%20Portal/7.1.0%20GA1/liferay-ce-portal-tomcat-7.1.0-ga1-20180703012531655.zip
+#ADD liferay-ce-portal-tomcat-7.1.0-ga1-20180703012531655.zip /
 
 RUN unzip liferay-ce-portal-tomcat-7.1.0-ga1-20180703012531655.zip
 RUN rm liferay-ce-portal-tomcat-7.1.0-ga1-20180703012531655.zip
