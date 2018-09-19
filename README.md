@@ -1,9 +1,10 @@
 # docker-demo-liferay
 
-sample from my blog https://another-software-development-blog.blogspot.de
+sample from my blog https://another-software-development-blog.blogspot.com
 
 
-liferay ce 7 ga 3 with tomcat and postgresql 9.5
+liferay ce portal bundle with tomcat 7.1.0-ga1
+with tomcat and postgresql
 
 
 start image with
