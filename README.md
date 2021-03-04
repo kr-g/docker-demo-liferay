@@ -1,3 +1,11 @@
+# REPO ARCHIVED (2021-03-04)
+
+this repo is archived and not maintained longer 
+since demo code is related to an older version
+
+---
+
+
 # docker-demo-liferay
 
 liferay ce portal bundle with tomcat 7.1.0-ga1 with hypersonic db
